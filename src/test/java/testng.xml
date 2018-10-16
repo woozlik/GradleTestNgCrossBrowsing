@@ -1,0 +1,15 @@
+<suite name="softwaretestingmaterial">
+    <test name="EdgeTest">
+        <parameter name="browser" value="edge" />
+        <classes>
+            <class name ="SuiteOfTest" />
+        </classes>
+    </test>
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name ="SuiteAmazonTest" />
+        </classes>
+    </test>
+
+</suite>
